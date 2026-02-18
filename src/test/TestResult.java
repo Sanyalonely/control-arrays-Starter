@@ -6,12 +6,11 @@ import java.util.Arrays;
 public class TestResult {
 
     public static void main(String[] args) {
-        // Тестовий масив
-        int[] data = {1, 5, 2, 5, 3, 5, 2, 1, 1, 1};
+        int[] data = {1, 2, 3, 2, 4, 2, 5};
 
         int result = Exercise.calculate(data);
 
-        System.out.println("Вихідний масив: " + Arrays.toString(data));
-        System.out.println("Найчастіше число в масиві це: " + result);
+        System.out.println("Масив: " + Arrays.toString(data));
+        System.out.println("Число, що повторюється найчастіше: " + result);
     }
 }
